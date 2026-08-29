@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "src/**/*.astro", "src/data/**/*.json"],
+  "exclude": ["node_modules", "dist", "src/components", "src/hooks", "src/lib", "src/pages/**/*.tsx"],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true
+  }
+}
