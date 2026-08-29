@@ -1,0 +1,34 @@
+{
+  "name": "Nightshift",
+  "eyebrow": "A small toolkit for the late shift",
+  "tagline": "Move files. Shape data. Ship clean.",
+  "description": "A compact command-line utility that turns the awkward middle of a workflow into a one-liner. Fast enough to disappear, opinionated enough to trust.",
+  "version": "1.2.0",
+  "updated": "August 2026",
+  "repositoryUrl": "https://github.com/example/nightshift",
+  "releasesUrl": "https://github.com/example/nightshift/releases",
+  "installCommand": "curl -fsSL https://nightshift.sh/install | bash",
+  "products": [
+    {
+      "number": "01",
+      "name": "Shape",
+      "short": "Convert without the ceremony.",
+      "description": "Move between JSON, YAML, CSV, and env files without pulling a whole runtime into the room.",
+      "command": "ns shape payload.yaml --to json"
+    },
+    {
+      "number": "02",
+      "name": "Check",
+      "short": "Catch the wrong thing early.",
+      "description": "Validate payloads against schemas, with errors that point to the line you actually need to fix.",
+      "command": "ns check payload.json --schema api.yaml"
+    },
+    {
+      "number": "03",
+      "name": "Ship",
+      "short": "Make repeatable the default.",
+      "description": "Compose small transforms into scripts that run the same on your laptop, CI, and a clean machine.",
+      "command": "ns ship ./fixtures --format ndjson"
+    }
+  ]
+}
