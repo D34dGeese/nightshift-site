@@ -1,0 +1,30 @@
+{
+  "version": "v1.2.0",
+  "label": "Current release",
+  "date": "August 2026",
+  "notes": "Smarter schema errors, faster streaming transforms, and a smaller install footprint.",
+  "releaseUrl": "https://github.com/example/nightshift/releases/tag/v1.2.0",
+  "platforms": [
+    {
+      "name": "macOS",
+      "detail": "Apple silicon + Intel",
+      "asset": "nightshift-darwin-arm64.tar.gz",
+      "url": "https://github.com/example/nightshift/releases/download/v1.2.0/nightshift-darwin-arm64.tar.gz",
+      "recommended": true
+    },
+    {
+      "name": "Linux",
+      "detail": "Static binary · x86_64",
+      "asset": "nightshift-linux-amd64.tar.gz",
+      "url": "https://github.com/example/nightshift/releases/download/v1.2.0/nightshift-linux-amd64.tar.gz",
+      "recommended": false
+    },
+    {
+      "name": "Windows",
+      "detail": "PowerShell · x86_64",
+      "asset": "nightshift-windows-amd64.zip",
+      "url": "https://github.com/example/nightshift/releases/download/v1.2.0/nightshift-windows-amd64.zip",
+      "recommended": false
+    }
+  ]
+}
